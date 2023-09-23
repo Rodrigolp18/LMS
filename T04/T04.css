@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.navegador, .rodape {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+.navegador {
+  position: fixed;
+  top: 0;
+}
+
+.rodape {
+  position: fixed;
+  bottom: 0;
+}
+
+.menu {
+  background-color: lightgrey;
+  width: 300px;
+  height: calc(100vh - 20px); /* Ajuste a altura conforme necessário */
+  float: left;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  text-decoration: none;
+  color: black;
+}
+
+.conteudo {
+  margin-top: 40px; /* Altura do navegador */
+  padding-left: 320px; /* Largura do menu + um pouco de espaço */
+}
+
+.galeria {
+  padding: 10px;
+}
+
+.galeria img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+.info-cobol {
+  background-color: lightgrey;
+  width: 300px;
+  height: calc(100vh - 20px); /* Ajuste a altura conforme necessário */
+  float: right;
+}
